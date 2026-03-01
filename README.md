@@ -1,26 +1,13 @@
-# kinetic-media-ingest
-MODULE : MEDIA_ACQUISITION_01 ] - Automated Python-based Selenium/PyAudio bridge for high-fidelity hardware-level signal acquisition and bypass verification.
+# [ MODULE : KINETIC_MEDIA_INGEST ]
 
-[ MODULE : KINETIC_MEDIA_INGEST ]
-[ OVERVIEW ]
-This repository contains a specialized automation framework designed to bridge web-layer interfaces with system-level hardware buffers. Utilizing Selenium for navigation and PyAudio for ingest, the module enables the acquisition of high-fidelity 44100Hz audio data directly from the system's "Stereo Mix".
+### [ MISSION_OVERVIEW ]
+A cross-platform Python framework designed for automated web-browser synchronization and high-fidelity internal system audio acquisition. This module utilizes browser automation to trigger media playback and hardware-level ingest to capture the signal stream.
 
-[ CAPABILITIES ]
-Web Automation: Handling dynamic content loading and execution timing via Selenium.
+### [ TACTICAL_FEATURES ]
+* **Browser Automation:** Selenium-driven navigation with headless Chrome and no-sandbox capabilities for server-side execution.
+* **Hardware Agnostic:** Utilizes the `sounddevice` library for dynamic hardware indexing, allowing loopback capture on any OS.
+* **Data Serialization:** Automated capture and export of the synchronized audio stream to high-fidelity WAV format.
 
-Hardware Ingest: Direct indexing of system audio channels for real-time recording.
-
-Signal Processing: Conversion of raw audio frames into standard .wav technical records.
-
-[ PREREQUISITES ]
-Python 3.x
-
-PyAudio
-
-Selenium
-
-Chrome WebDriver (calibrated to your local system path)
-
-[ SECURE_UPLINK ]
-Developed by the Lead Analyst at Parkway Production.
-[ SYSTEM_STATUS: ONLINE ] [ ENCRYPTION: TLS_ENABLED ]
+### [ SECURE_UPLINK ]
+Developed by the **Lead Analyst** at [Parkway Production](https://parkwayproduction.com).
+`[ VERIFIED_CREDENTIALS : IBM_CYBERSECURITY_ANALYST // GOOGLE_CYBER_PRO ]`
